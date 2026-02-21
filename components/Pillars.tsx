@@ -75,7 +75,7 @@ const Pillars: React.FC = () => {
           colorClass="bg-teal-500"
           description="A legacy of de-addiction and rehabilitation established in 2001. Aman Foundation has spent over two decades offering compassionate care, structured counseling, and long-term support for individuals fighting substance abuse. It is the ethical core of DEORA & CO., focusing on mind, body, and family recovery."
           features={["Inpatient Care", "Holistic Healing", "Family Counseling", "Aftercare Support"]}
-          link="#"
+          link="https://aman-digital-care-841342625457.us-west1.run.app/#/about"
           linkText="Our Legacy"
           footerText="Role of DEORA & CO.: Preserving this legacy and modernizing it with data-driven care."
         />
@@ -90,7 +90,7 @@ const Pillars: React.FC = () => {
           colorClass="bg-violet-600"
           description="Built on real-world rehabilitation experience, Aman AI is a 24/7 digital companion for addiction recovery. It acts as a non-judgmental friend, offering daily check-ins, craving management, and emotional support. Developed by Devanshu to scale the foundation's impact globally using modern LLMs."
           features={["Mood Tracking", "Relapse Prevention", "Crisis Alerts", "Caregiver Mode"]}
-          link="https://aman-ai-841342625457.us-west1.run.app"
+          link="https://aman-digital-care-841342625457.us-west1.run.app/"
           linkText="Try The Beta"
           footerText="Taking a family's 20+ year experience and scaling it digitally for the next generation."
         />
