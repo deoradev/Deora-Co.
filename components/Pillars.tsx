@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import { SectionId } from '../types';
-import { Heart, Cpu, Shirt, ArrowRight, Activity, Brain, ShoppingCart, Instagram, Gem } from 'lucide-react';
+import { Heart, Cpu, Shirt, ArrowRight, Activity, Brain, ShoppingCart, Instagram, Gem, Star } from 'lucide-react';
 
 const PillarCard = ({ 
   title, 
@@ -12,6 +12,7 @@ const PillarCard = ({
   icon: Icon,
   link,
   linkText,
+  instagramLink,
   footerText,
   align
 }: any) => {
@@ -50,14 +51,27 @@ const PillarCard = ({
           </p>
         )}
 
-        <a 
-          href={link} 
-          target="_blank" 
-          rel="noreferrer"
-          className="inline-flex items-center gap-2 text-white hover:text-sky-400 transition-colors uppercase tracking-widest text-sm font-bold mt-4"
-        >
-          {linkText} <ArrowRight size={16} />
-        </a>
+        <div className="flex flex-wrap items-center gap-6 mt-4">
+          <a 
+            href={link} 
+            target="_blank" 
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-white hover:text-sky-400 transition-colors uppercase tracking-widest text-sm font-bold"
+          >
+            {linkText} <ArrowRight size={16} />
+          </a>
+          
+          {instagramLink && (
+            <a 
+              href={instagramLink} 
+              target="_blank" 
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors uppercase tracking-widest text-sm font-bold"
+            >
+              <Instagram size={16} /> Instagram
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -77,6 +91,7 @@ const Pillars: React.FC = () => {
           features={["Inpatient Care", "Holistic Healing", "Family Counseling", "Aftercare Support"]}
           link="https://aman-digital-care-841342625457.us-west1.run.app/#/about"
           linkText="Our Legacy"
+          instagramLink="https://www.instagram.com/officialamanfoundation?igsh=NmYwb2lxNTlmaGRi"
           footerText="Role of DEORA & CO.: Preserving this legacy and modernizing it with data-driven care."
         />
       </Section>
@@ -123,6 +138,21 @@ const Pillars: React.FC = () => {
           link="https://shopfalse.in"
           linkText="Visit shopfalse.in"
           footerText="Co-founded with Naman Goyal and Sarthak Dhingra to redefine imitation jewellery."
+        />
+      </Section>
+
+      <Section id={SectionId.TALENT_MANAGEMENT}>
+        <PillarCard
+          align="left"
+          title="Talent Management"
+          subtitle="Executive Operations | Since Nov 2025"
+          icon={Star}
+          colorClass="bg-yellow-500"
+          description="Operating in the fast-paced entertainment industry as the Personal Assistant to iconic Indian Television Actor Vivian Dsena. Managing day-to-day operations, strategic coordination, and ensuring seamless executive support at the highest level."
+          features={["Executive Support", "Schedule Management", "Industry Networking", "Strategic Coordination"]}
+          link="#contact"
+          linkText="Connect for Collaborations"
+          footerText="Bridging the gap between creative talent and operational excellence."
         />
       </Section>
     </>

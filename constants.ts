@@ -5,6 +5,7 @@ export const NAV_LINKS = [
   { label: 'Innovation', id: SectionId.AMAN_AI },
   { label: 'Culture', id: SectionId.WATS_NXT },
   { label: 'Jewellery', id: SectionId.FALSE_JEWELLERY },
+  { label: 'Assistant', id: SectionId.TALENT_MANAGEMENT },
   { label: 'Devanshu', id: SectionId.ABOUT },
   { label: 'Contact', id: SectionId.CONTACT },
 ];
@@ -52,6 +53,7 @@ export const SKILLS_TECH = [
 ];
 
 export const SKILLS_OPS = [
+  "Celebrity Management",
   "E-commerce Strategy",
   "Product Photography",
   "Content Storytelling",

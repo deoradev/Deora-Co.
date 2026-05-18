@@ -21,6 +21,7 @@ export enum SectionId {
   AMAN_AI = 'aman-ai',
   WATS_NXT = 'wats-nxt',
   FALSE_JEWELLERY = 'false-jewellery',
+  TALENT_MANAGEMENT = 'talent-management',
   SKILLS = 'skills',
   TIMELINE = 'timeline',
   CONTACT = 'contact'

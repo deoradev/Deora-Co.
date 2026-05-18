@@ -40,6 +40,17 @@ const Contact: React.FC = () => {
           </a>
           
           <a 
+            href="https://www.instagram.com/devanshudeora?igsh=OXhrd2w1ZDNybGN2&utm_source=qr" 
+            target="_blank" 
+            rel="noreferrer"
+            className="px-8 py-4 bg-sky-600 border border-sky-500 text-white font-bold rounded-full hover:bg-sky-500 transition-colors flex items-center gap-2 shadow-[0_0_20px_rgba(2,132,199,0.3)]"
+          >
+            <Instagram size={20} />
+            @devanshudeora
+            <ArrowUpRight size={16} />
+          </a>
+
+          <a 
             href="https://www.instagram.com/watsnxt.in" 
             target="_blank" 
             rel="noreferrer"

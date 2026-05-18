@@ -7,6 +7,7 @@ import Pillars from './components/Pillars';
 import Timeline from './components/Timeline';
 import WhyMatters from './components/WhyMatters';
 import Contact from './components/Contact';
+import BackToTop from './components/BackToTop';
 
 const App: React.FC = () => {
   return (
@@ -34,6 +35,8 @@ const App: React.FC = () => {
           <WhyMatters />
           <Contact />
         </main>
+        
+        <BackToTop />
       </div>
     </div>
   );
