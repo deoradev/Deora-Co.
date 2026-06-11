@@ -141,18 +141,18 @@ const Pillars: React.FC = () => {
         />
       </Section>
 
-      <Section id={SectionId.TALENT_MANAGEMENT}>
+      <Section id={SectionId.BUSINESS_MANAGEMENT}>
         <PillarCard
           align="left"
-          title="Talent Management"
-          subtitle="Executive Operations | Since Nov 2025"
+          title="Business Management"
+          subtitle="Enterprise & Venture Operations | Since Nov 2025"
           icon={Star}
           colorClass="bg-yellow-500"
-          description="Operating in the fast-paced entertainment industry as the Personal Assistant to iconic Indian Television Actor Vivian Dsena. Managing day-to-day operations, strategic coordination, and ensuring seamless executive support at the highest level."
-          features={["Executive Support", "Schedule Management", "Industry Networking", "Strategic Coordination"]}
+          description="Directing the commercial interests, brand partnerships, and business enterprise operations of iconic Indian Television Actor Vivian Dsena. Providing robust project management, commercial negotiation, and executive operational support (focusing entirely on business portfolio administration, not acting/talent agency booking representation)."
+          features={["Venture Administration", "Strategic Partnerships", "Commercial Operations", "Brand Scale Strategy"]}
           link="#contact"
           linkText="Connect for Collaborations"
-          footerText="Bridging the gap between creative talent and operational excellence."
+          footerText="Enabling premium creators and icons to scale their commercial portfolios."
         />
       </Section>
     </>
